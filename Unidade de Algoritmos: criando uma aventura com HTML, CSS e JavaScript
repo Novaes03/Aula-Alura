@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Certo dia enquanto eu estava organizando as coisas da minha avó, eu encontrei um mapa dizendo sobre um tesouro perdido. 
+Então decidi encontrá-lo</p>
+            <button class="btn-proximo" data-proximo="1">Salvador</button>
+            <button class="btn-proximo" data-proximo="2">Paraíba</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa seu destino na Ilha dos Frades, e começa a fazer uma trilha junto com uma historiadora para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Começar a fazer a trilha e procurar pistas</button>
+            <button class="btn-proximo" data-proximo="4">Perguntar sobre o tesouro</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você começa seu destino na Paróquia Matriz Nossa Senhora da Conceição, lá você encontra uma senhora que conhece muito sobre a história do tesouro</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas</button>
+            <button class="btn-proximo" data-proximo="6">Ir fazer uma trilha</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nas trilhas o caminho estava totalmente coberto pelo mar, então você decide voltar e ir embora.</p>
+            <button class="btn-proximo" data-proximo="7">Você descobre que o tesouro está nas profundezas da Ilha.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande então se prepara para enfrenta-lá.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas trilhas o caminho está bem dificil mais você decidi continuar.</p>
+            <button class="btn-proximo" data-proximo="7">Você continua a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a trilha, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as outras trilhas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A busca pelo tesouro perdido se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Durante a caminhada você encontra um mapa antigo e resolve segui-lo</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada de
+                uma caverna que está o tesouro perdido</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da caverna, você descobre o tesouro perdido e decide levar ele para o museu da cidade para estudar e preservar esse tesouro
+         </p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Levar o tesouro perdido para o museu</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
